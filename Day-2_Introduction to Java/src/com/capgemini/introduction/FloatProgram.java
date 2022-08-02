@@ -1,11 +1,9 @@
 package com.capgemini.introduction;
-
-public class Main {
+//Program on Float Data-type
+public class FloatProgram {
 
 	public static void main(String[] args) {
-		byte a = 127;
-		//byte a = 129
-		//it will give you an error because of byte range
+		float a = 2.5f;
 		System.out.println(a);
 
 	}
