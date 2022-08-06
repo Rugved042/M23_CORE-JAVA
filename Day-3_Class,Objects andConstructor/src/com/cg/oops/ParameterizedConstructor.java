@@ -1,11 +1,11 @@
 package com.cg.oops;
 
-class pulser
+class hero
 {
 	public int speed;
 	public String color;
 	//Parameterized Constructor
-	pulser(int sp,String col)
+	hero(int sp,String col)
 	{
 		speed = sp;
 		color = col;
@@ -19,9 +19,10 @@ class pulser
 public class ParameterizedConstructor {
 
 	public static void main(String[] args) {
-		pulser p=new pulser(50,"Black");
+		hero p=new hero(100,"Black");
 		p.accept();
 		
 	}
 
 }
+
