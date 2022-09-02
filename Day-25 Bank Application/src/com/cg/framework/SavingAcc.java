@@ -12,6 +12,7 @@ public abstract class SavingAcc extends BankAcc
 		this.isSalaried = isSalaried;
 	}
 
+	
 	@Override
 	public String toString() {
 		return "SavingAcc [isSalaried=" + isSalaried + "]";
@@ -21,8 +22,5 @@ public abstract class SavingAcc extends BankAcc
 	{
 		System.out.println("Account No: "+this.getAccNo()+" Account Name: "+this.getAccNm()+" Account Balance is: "+(this.getAccBal()-withdraw-50));
 	}
-	
-	
-	
-
+		
 }
